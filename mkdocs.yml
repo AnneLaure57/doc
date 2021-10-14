@@ -39,6 +39,14 @@ nav:
             - 'Introduction' : 'indexAngular.md'
         - 'PHP':
             - 'Introduction' : 'indexPHP.md'
+    - 'DevOps':
+        - 'Docker': indexDocker.md
+        - 'Heroku': indexHeroku.md
+        - 'Dokku': indexDokku.md
+        - 'OpenShift': indexOpenShift.md
+    - 'Concepts/Architecure':
+        - 'API':
+            - 'API REST': indexAPIREST.md
     - 'Management': 'management.md'
     - 'Stack':
         - 'Technical Stack': 'technicalStack.md'
