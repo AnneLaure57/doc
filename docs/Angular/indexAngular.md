@@ -5,14 +5,24 @@ https://guide-angular.wishtack.io/angular/routing/route-guards
 https://ultimatecourses.com/blog/intro-to-angular-http-interceptors
 https://medium.com/angular-in-depth/top-10-ways-to-use-interceptors-in-angular-db450f8a62d6
 
-# pagination
+## pagination
 
-**paginate angular 12**
+### paginate angular 8
 
-https://www.positronx.io/angular-server-side-pagination-with-ngx-pagination-example/ 
-https://michaelbromley.github.io/ngx-pagination/#/custom-template 
+https://www.positronx.io/angular-server-side-pagination-with-ngx-pagination-example/
 
-# Books
+### paginate angular 12
+
+https://michaelbromley.github.io/ngx-pagination/#/custom-template
+
+## Authentification
+
+https://www.bezkoder.com/node-js-angular-12-jwt-auth/
+https://www.bezkoder.com/node-js-jwt-authentication-postgresql/
+https://www.bezkoder.com/angular-12-jwt-auth/
+https://www.bezkoder.com/angular-12-refresh-token/
+
+## Books
 https://www.guru99.com/best-angularjs-books.html
 https://realtoughcandy.com/angular-books/
 https://www.newline.co/ng-book/2/

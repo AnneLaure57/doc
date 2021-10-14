@@ -4,14 +4,6 @@ site_author: Anne-Laure CHARLES
 
 theme:
     name: material
-    extra:
-      alternate:
-        - name: English
-          link: /en/
-          lang: en
-        - name: Deutsch
-          link: /de/
-          lang: de
     highlightjs: true
     hljs_languages:
         - yaml
@@ -30,13 +22,26 @@ theme:
           name: Switch to light mode
     extra_css:
       - stylesheets/extra.css
+    extra:
+      generator: false
+      alternate:
+        - name: English
+          link: /en/
+          lang: en
+        - name: Deutsch
+          link: /de/
+          lang: de
+      social:
+        - icon: fontawesome/brands/twitter
+          link: https://twitter.com/squidfunk
+          name: squidfunk on Twitter
 
 nav:
     - 'Accueil': 'index.md'
     - 'Documentation': 'howWorking.md'
     - 'Languages':
         - 'Angular':
-            - 'Introduction' : 'indexAngular.md'
+            - 'Introduction' : 'Angular/indexAngular.md'
         - 'PHP':
             - 'Introduction' : 'indexPHP.md'
     - 'DevOps':
