@@ -9,3 +9,7 @@
 <p style="text-align:justify;">The difference from a language view is that in the use case you just pick certain parts from a package while the import takes all. Most programming languages take imported packages into their scope so you address elements from the package as being part of the importing itself. For the used ones you usually qualify the namespace.</p>
 
 [![Generic badge](https://aleen42.github.io/badges/src/stackoverflow.svg)](https://stackoverflow.com/questions/29744168/whatre-the-differences-between-use-and-import-dependencies)
+
+## ViewChild decorator
+
+[![Generic badge](https://aleen42.github.io/badges/src/stackoverflow.svg)](https://stackoverflow.com/questions/48785965/angular-matpaginator-doesnt-get-initialized?page=1&tab=votes#tab-top)
