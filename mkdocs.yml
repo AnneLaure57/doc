@@ -44,6 +44,8 @@ nav:
             - 'Introduction' : 'Angular/indexAngular.md'
         - 'PHP':
             - 'Introduction' : 'indexPHP.md'
+        - 'TypeScript':
+            - 'Introduction' : TypeScript/indexTypeScript.md
     - 'DevOps':
         - 'Docker': DevOps/indexDocker.md
         - 'Heroku': DevOps/indexHeroku.md
