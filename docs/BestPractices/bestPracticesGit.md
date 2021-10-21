@@ -177,12 +177,28 @@ git stash save <message>
 
 git bisect
 
-git push -u | --set-upstream origin <branch>
+git fetch // git pull --force
+
+git fetch <remote> <branch> // force overwrite Local Files
+
+git push -u | --set-upstream origin <branch> // push a local branch to remote repository and allow the track
 
 git push --force | -f <branch> // rewrite the history
 
 git rebase -i // remove branch history
 
+git pull --rebase // update your local working branc, rewrite history , avoid a merge commmit
+
+git log --oneline --graph --color --all --decorate // display the tree
+```
+
+### Accidentally commited to the wrong branch
+
+```
+git checkout <branch name>
+git merge master
+git push
+git reset --hard // fix the other branch, :chnage the pointer of the branch
 ```
 
 ## Sources
@@ -190,3 +206,4 @@ git rebase -i // remove branch history
 * [Datree](https://www.datree.io/resources/github-best-practices)
 * [sourcelevel.io](https://sourcelevel.io/blog/7-git-best-practices-to-start-using-in-your-next-commit)
 * [Acompiler](https://acompiler.com/git-best-practices/)
+* [GitHub-Doc](https://github.com/git-guides/git-add)
