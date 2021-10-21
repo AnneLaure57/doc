@@ -2,8 +2,6 @@
 
 last update : 20/10/2021
 
-Advice  :
-
 ## **1 - Don't ```git push ``` straight to master** 
 
 -> keep your code safe and deployable any time.
@@ -27,7 +25,10 @@ git checkout - //switch back to the previous branch
 
 [![Generic badge](https://badges.aleen42.com/src/github.svg)](https://nvie.com/posts/a-successful-git-branching-model/)
 
-
+* Use separators like - or _ when you creat a new branch
+* Don't use only numbers
+* Avoid too long names
+* Avoid the use of all naming conventions
 ## **2 - Don't commit the code as an unregognized author**
 
 Description : 
@@ -45,6 +46,8 @@ git blame <file>
 Apply the **SOLID** concept -> S -> Single Responsibility Principle.
 
 push the least amount of lines thaht make sens together.
+
+Make atomic commit. An Anatomic commit = one commit for one change.
 
 ## **3 - Define code owners for faster code reviews**
 
@@ -105,9 +108,57 @@ git rebase <upstream_branch>
 ```
 
 or 
+
 ```
 git fetch --prune
 ```
+
+## **13 - Review your commit**
+
+Make code review, possibility to use GitHub pull request model.
+
+## **14 - Keep your codebase healthy**
+
+```
+git-gc  // clean the unwanted files and optimizes your local repository
+
+git-prune // prune all unreachable objects
+```
+
+## **15 - Code Review**
+
+This command takes two inputs and shows differences.
+
+```
+git diff --staged
+```
+
+## **16 - Git Branch**
+
+* use différents branches
+* use branch naming convention
+* delete stale branches (stale = obselète)
+* keep yout branches up to date
+* protect your main branch
+* test before push
+* use group word in the branch name
+  * wip -> work in progress
+  * exp -> experimental branch (dev)
+  * feature -> adding new feature
+
+## AFTER Technique
+
+Regroup the most important "Best Practices" :
+
+* A - Atomic Commits
+
+* F - Frequent Commits
+
+* T - Test before you push your changes
+
+* E - Enforce standards
+
+* R - Refactoring is not a new feature
 
 ## Useful commands
 
@@ -118,9 +169,11 @@ git blame
 
 git cherry-pick
 
-git diff and git apply
+git diff 
 
-git stash
+git apply
+
+git stash save <message>
 
 git bisect
 
@@ -136,3 +189,4 @@ git rebase -i // remove branch history
 
 * [Datree](https://www.datree.io/resources/github-best-practices)
 * [sourcelevel.io](https://sourcelevel.io/blog/7-git-best-practices-to-start-using-in-your-next-commit)
+* [Acompiler](https://acompiler.com/git-best-practices/)

@@ -45,10 +45,10 @@ nav:
         - 'PHP':
             - 'Introduction' : 'indexPHP.md'
     - 'DevOps':
-        - 'Docker': indexDocker.md
-        - 'Heroku': indexHeroku.md
-        - 'Dokku': indexDokku.md
-        - 'OpenShift': indexOpenShift.md
+        - 'Docker': DevOps/indexDocker.md
+        - 'Heroku': DevOps/indexHeroku.md
+        - 'Dokku': DevOps/indexDokku.md
+        - 'OpenShift': DevOps/indexOpenShift.md
     - 'Concepts/Architecure':
         - 'API':
             - 'API REST': indexAPIREST.md
