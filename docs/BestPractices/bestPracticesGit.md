@@ -1,15 +1,15 @@
 # Best Pratices Git
 
-last update : 20/10/2021
+last update : 27/10/2021
 
-## **1 - Don't ```git push ``` straight to master** 
+## **1 - Don't ```git push ``` straight to master**
 
 -> keep your code safe and deployable any time.
 
-Description : 
+Description :
 
-<p style="text-align:justify;"> Use the concept of "cheap branching". Use differents branch promote the collaboration, and allow to ignite heathly discussions, improve
-codebase quality and spread the knowledge with others developpers (Code Review).</p>
+<p style="text-align:justify;"> Use the concept of "cheap branching". Use different branch promote the collaboration, and allow to ignite heathly discussions, improve
+codebase quality and spread the knowledge with others developers (Code Review).</p>
 
 ```
 git branch -b <name> master // create new branch from master
@@ -19,21 +19,21 @@ git checkout - //switch back to the previous branch
 
 ### **1.1 - Use the branch naming convention**
 
-<p style="text-align:justify;">Adopting a consistent branch naming convertion is essential to keeping your repository. The most popular ones is "git flow".</p>
+<p style="text-align:justify;">Adopting a consistent branch naming conversion is essential to keeping your repository. The most popular ones is "git flow".</p>
 
 ![Screenshot](../images/gitflow.png)
 
 [![Generic badge](https://badges.aleen42.com/src/github.svg)](https://nvie.com/posts/a-successful-git-branching-model/)
 
-* Use separators like - or _ when you creat a new branch
+* Use separators like - or _ when you create a new branch
 * Don't use only numbers
 * Avoid too long names
 * Avoid the use of all naming conventions
 ## **2 - Don't commit the code as an unregognized author**
 
-Description : 
+Description :
 
-<p style="text-align:justify;"> Use for keep a trace of the developpment, who developp what. Example, it's possible to use the command :</p>
+<p style="text-align:justify;"> Use for keep a trace of the development, who develop what. Example, it's possible to use the command :</p>
 
 ```
 git blame <file>
@@ -45,7 +45,7 @@ git blame <file>
 
 Apply the **SOLID** concept -> S -> Single Responsibility Principle.
 
-push the least amount of lines thaht make sens together.
+push the least amount of lines that make sens together.
 
 Make atomic commit. An Anatomic commit = one commit for one change.
 
@@ -107,7 +107,7 @@ git checkout -
 git rebase <upstream_branch>
 ```
 
-or 
+or
 
 ```
 git fetch --prune
@@ -135,10 +135,10 @@ git diff --staged
 
 ## **16 - Git Branch**
 
-* use différents branches
+* use different branches
 * use branch naming convention
-* delete stale branches (stale = obselète)
-* keep yout branches up to date
+* delete stale branches (stale = no stable)
+* keep your branches up to date
 * protect your main branch
 * test before push
 * use group word in the branch name
@@ -160,16 +160,108 @@ Regroup the most important "Best Practices" :
 
 * R - Refactoring is not a new feature
 
+## Git Flow principles
+
+### Create specific branch
+
+* main : main branch
+* develop : branch for the development (complete with all files and repositories)
+* feature : branch for the realization of new features on the project
+* release : branch for the deploy
+* hotfix : branch for fix bugs
+
+![Screenshot](../images/git-workflow-2.png)
+
+### Global Workflow
+
+main > develop
+      develop > release
+              > feature
+When merge
+feature > develop
+release > develop
+        > main
+
+When hotfix
+main > hotfix
+hotfix > main
+       > develop
+### Example with developp and feature branch
+
+```
+git checkout main
+git checkout -b develop
+git checkout -b feature_branch
+
+# work happens on feature branch
+
+git checkout develop
+git merge feature_branch
+git checkout main
+git merge develop
+git branch -d feature_branch
+```
+
+### Example with hotfix
+
+```
+git checkout main
+git checkout -b hotfix_branch
+# work is done commits are added to the hotfix_branch
+git checkout develop
+git merge hotfix_branch
+git checkout main
+git merge hotfix_branch
+```
+
+## conflicts Management
+
+```
+git pull --rebase origin <branch>
+```
+
+-- rebase : move all commits to the <branch> branch pointer.
+
+if error
+
+```
+git reset HEAD <some-file> |  git add/rm <some-file>
+git rebase --continue // if mistake, use --abort
+```
+
+## Workflow branches
+
+```
+git checkout main
+git fetch origin
+git reset --hard origin/main
+```
+
+### Create new branch
+
+```
+git checkout -b new-feature main
+```
+
+### Update the branch new-features
+
+```
+git status
+git add <some-file>
+git commit
+git push -u origin new-feature
+```
+
 ## Useful commands
 
 ```
-git log 
+git log
 
-git blame 
+git blame
 
 git cherry-pick
 
-git diff 
+git diff
 
 git apply
 
@@ -187,7 +279,7 @@ git push --force | -f <branch> // rewrite the history
 
 git rebase -i // remove branch history
 
-git pull --rebase // update your local working branc, rewrite history , avoid a merge commmit
+git pull --rebase // update your local working branch, rewrite history , avoid a merge commit
 
 git log --oneline --graph --color --all --decorate // display the tree
 ```
@@ -198,7 +290,7 @@ git log --oneline --graph --color --all --decorate // display the tree
 git checkout <branch name>
 git merge master
 git push
-git reset --hard // fix the other branch, :chnage the pointer of the branch
+git reset --hard // fix the other branch, change the pointer of the branch
 ```
 
 ## Sources
@@ -207,3 +299,6 @@ git reset --hard // fix the other branch, :chnage the pointer of the branch
 * [sourcelevel.io](https://sourcelevel.io/blog/7-git-best-practices-to-start-using-in-your-next-commit)
 * [Acompiler](https://acompiler.com/git-best-practices/)
 * [GitHub-Doc](https://github.com/git-guides/git-add)
+* [Atlissian-WorkFlow](https://www.atlassian.com/fr/git/tutorials/comparing-workflows)
+* [Atlissian-Branch](https://www.atlassian.com/fr/git/tutorials/comparing-workflows/feature-branch-workflow)
+* [Atlissian-GitFlow](https://www.atlassian.com/fr/git/tutorials/comparing-workflows/gitflow-workflow)
