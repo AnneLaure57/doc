@@ -10,8 +10,20 @@ https://stackoverflow.com/questions/7914454/json-to-php-json-decode-returns-null
 https://stackoverflow.com/questions/2348152/detect-bad-json-data-in-php-json-decode
 https://stackoverflow.com/questions/3377736/how-to-convert-json-to-string/46998859
 
+# PHP Call function
+
+https://stackoverflow.com/questions/32870243/call-to-undefined-function-app-http-controllers-function-name
+
 # Php Artisan
 https://stackoverflow.com/questions/59978923/trying-to-get-property-id-of-non-object-only-in-my-website
+php artisan migrate relation already exists error
+https://stackoverflow.com/questions/26077458/laravel-migration-table-already-exists-but-i-want-to-add-new-not-the-older
+
+# PHP Scheduler
+pg-scheduler php
+
+# PHP Spreadsheet
+https://blog.nicolashachet.com/developpement-php/generer-fichiers-excel-xlsx-xls-php/
 
 # Laravel Provider
 

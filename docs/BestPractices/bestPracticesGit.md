@@ -293,12 +293,23 @@ git push
 git reset --hard // fix the other branch, change the pointer of the branch
 ```
 
+## Go further
+
+* [Git flow tool](https://github.com/nvie/gitflow)
+
 ## Sources
 
+**Keywords** : best pratice to create another branch git
+
 * [Datree](https://www.datree.io/resources/github-best-practices)
+* [Raygun](https://raygun.com/blog/git-workflow/)
 * [sourcelevel.io](https://sourcelevel.io/blog/7-git-best-practices-to-start-using-in-your-next-commit)
 * [Acompiler](https://acompiler.com/git-best-practices/)
 * [GitHub-Doc](https://github.com/git-guides/git-add)
 * [Atlissian-WorkFlow](https://www.atlassian.com/fr/git/tutorials/comparing-workflows)
 * [Atlissian-Branch](https://www.atlassian.com/fr/git/tutorials/comparing-workflows/feature-branch-workflow)
 * [Atlissian-GitFlow](https://www.atlassian.com/fr/git/tutorials/comparing-workflows/gitflow-workflow)
+
+[![Generic badge](https://aleen42.github.io/badges/src/stackoverflow.svg)](https://stackoverflow.com/questions/24717208/git-what-is-the-best-practice-for-team-work-on-a-feature-branch)
+
+[![Generic badge](https://aleen42.github.io/badges/src/stackoverflow.svg)](https://stackoverflow.com/questions/4470523/create-a-branch-in-git-from-another-branch)

@@ -55,4 +55,5 @@ testsSortedByCognome = tests.sort((a, b) => (a.cognome > b.cognome ? -1 : 1));
 
 ## Sources
 
-* [TYpeScript-Offical-Doc](https://www.typescriptlang.org/docs/handbook/intro.html)
+* [TypeScript-Offical-Doc](https://www.typescriptlang.org/docs/handbook/intro.html)
+* [TypeScript-Offical-Doc](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Operators/Property_Accessors)

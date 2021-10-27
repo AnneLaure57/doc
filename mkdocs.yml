@@ -43,7 +43,7 @@ nav:
         - 'Angular':
             - 'Introduction' : 'Angular/indexAngular.md'
         - 'PHP':
-            - 'Introduction' : 'indexPHP.md'
+            - 'Introduction' : 'PHP/indexPHP.md'
         - 'TypeScript':
             - 'Introduction' : TypeScript/indexTypeScript.md
     - 'DevOps':
@@ -54,7 +54,7 @@ nav:
     - 'Concepts/Architecure':
         - 'API':
             - 'API REST': indexAPIREST.md
-    - 'Management': 'management.md'
+    - 'Management': 'Management/management.md'
     - 'Stack':
         - 'Technical Stack': 'technicalStack.md'
         - 'Project Stack': 'projectStack.md'
