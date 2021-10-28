@@ -174,18 +174,27 @@ Regroup the most important "Best Practices" :
 
 ### Global Workflow
 
-main > develop
-      develop > release
-              > feature
-When merge
-feature > develop
-release > develop
-        > main
+* main 
+    * > develop
+* develop
+    * > release
+    * > feature
 
-When hotfix
-main > hotfix
-hotfix > main
-       > develop
+**When merge**
+
+* feature 
+    * > develop
+* release 
+    * > develop
+    * >main
+
+**When Hotfix**
+
+* main 
+    * > hotfix
+* hotfix 
+    * > main
+    * > develop
 ### Example with developp and feature branch
 
 ```
@@ -310,6 +319,6 @@ git reset --hard // fix the other branch, change the pointer of the branch
 * [Atlissian-Branch](https://www.atlassian.com/fr/git/tutorials/comparing-workflows/feature-branch-workflow)
 * [Atlissian-GitFlow](https://www.atlassian.com/fr/git/tutorials/comparing-workflows/gitflow-workflow)
 
-[![Generic badge](https://aleen42.github.io/badges/src/stackoverflow.svg)](https://stackoverflow.com/questions/24717208/git-what-is-the-best-practice-for-team-work-on-a-feature-branch)
+[![Generic badge](https://aleen42.github.io/badges/src/stackoverflow.svg)](https://stackoverflow.com/questions/24717208/git-what-is-the-best-practice-for-team-work-on-a-feature-branch) [![Generic badge](https://aleen42.github.io/badges/src/stackoverflow.svg)](https://stackoverflow.com/questions/4470523/create-a-branch-in-git-from-another-branch)
 
-[![Generic badge](https://aleen42.github.io/badges/src/stackoverflow.svg)](https://stackoverflow.com/questions/4470523/create-a-branch-in-git-from-another-branch)
+
