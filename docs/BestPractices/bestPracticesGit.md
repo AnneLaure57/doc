@@ -318,6 +318,7 @@ git reset --hard // fix the other branch, change the pointer of the branch
 * [Atlissian-WorkFlow](https://www.atlassian.com/fr/git/tutorials/comparing-workflows)
 * [Atlissian-Branch](https://www.atlassian.com/fr/git/tutorials/comparing-workflows/feature-branch-workflow)
 * [Atlissian-GitFlow](https://www.atlassian.com/fr/git/tutorials/comparing-workflows/gitflow-workflow)
+* [LinuxHint](https://linuxhint.com/git_merge_branch_git_delete_branch/)
 
 [![Generic badge](https://aleen42.github.io/badges/src/stackoverflow.svg)](https://stackoverflow.com/questions/24717208/git-what-is-the-best-practice-for-team-work-on-a-feature-branch) [![Generic badge](https://aleen42.github.io/badges/src/stackoverflow.svg)](https://stackoverflow.com/questions/4470523/create-a-branch-in-git-from-another-branch)
 

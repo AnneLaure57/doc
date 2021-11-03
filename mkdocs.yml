@@ -46,6 +46,8 @@ nav:
             - 'Introduction' : 'PHP/indexPHP.md'
         - 'TypeScript':
             - 'Introduction' : TypeScript/indexTypeScript.md
+        - 'JAVA':
+            - 'Introduction' : JAVA/indexJAVA.md
     - 'DevOps':
         - 'Docker': DevOps/indexDocker.md
         - 'Heroku': DevOps/indexHeroku.md
