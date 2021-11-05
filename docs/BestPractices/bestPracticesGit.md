@@ -1,10 +1,10 @@
 # Best Pratices Git
 
-last update : 27/10/2021
+last update : 05/11/2021
 
 ## **1 - Don't ```git push ``` straight to master**
 
--> keep your code safe and deployable any time.
+* keep your code safe and deployable any time.
 
 Description :
 

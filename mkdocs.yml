@@ -48,6 +48,11 @@ nav:
             - 'Introduction' : TypeScript/indexTypeScript.md
         - 'JAVA':
             - 'Introduction' : JAVA/indexJAVA.md
+    - 'GIT':
+        - 'Git branch': GIT/gitBranch.md
+        - 'Git Clean repository': GIT/gitCleanRepo.md
+        - 'Git Graph': GIT/gitGraph.md
+        - 'Git WorkFlow': GIT/gitWorkFlow.md 
     - 'DevOps':
         - 'Docker': DevOps/indexDocker.md
         - 'Heroku': DevOps/indexHeroku.md

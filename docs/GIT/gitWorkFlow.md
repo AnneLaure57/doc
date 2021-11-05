@@ -1,3 +1,5 @@
+## GIT workflow
+
 Git cherry-pick
 rebase
 merge
@@ -9,14 +11,26 @@ git merge --no-ff test
 git push origin master
 ```
 
-## Cherry-pick
+
 
 ## Merge
 
-git merge --no-ff test
+### Git Flow : Fast-forward and no fast-forward
 
---no-ff : no fast-forward
---ff-only : fast-forward
+<p style="text-align:justify;">git will (by default) do what is known as a fast-forward merge; master's branch pointer is just updated to be the same commit as the tip of your merge. This usually results in a simpler commit history that is easier to work with, especially if work is also going on in remote repositories.</p>
+
+In this case, use :
+
+```
+git merge --no-ff <branch>
+```
+
+<p style="text-align:justify;">It's generally considered like a best practice to keep the version history as topologically simple as possible, which means to use fast-forward. The <b>--no-ff</b> option is there to support methodologies that demand explicit branching and merge tracking.</p>
+
+[![Generic badge](https://aleen42.github.io/badges/src/stackoverflow.svg)](https://stackoverflow.com/questions/16217363/git-graph-not-showing-branch)
+
+* ```--no-ff``` : no fast-forward
+* ```--ff-only``` : fast-forward
 
 Quote : git pull -> equivalent --ff-only
 
@@ -36,3 +50,4 @@ https://stackoverflow.com/questions/5601931/what-is-the-best-and-safest-way-to-m
 https://www.google.com/search?rlz=1C1GCEU_frLU970LU970&sxsrf=AOaemvK-LbcHXJA8Tc7HuTq9WSjPYr8XWw%3A1636007105771&lei=wXyDYfq-LsvTkwWbhorIDg&q=git%20merge%20--no-ff&ved=2ahUKEwi6o46zif7zAhXL6aQKHRuDAukQsKwBKAB6BAg0EAE&biw=1536&bih=722&dpr=1.25
 https://stackoverflow.com/questions/9069061/what-is-the-difference-between-git-merge-and-git-merge-no-ff
 https://www.google.com/search?q=cherry+pick+git&rlz=1C1GCEU_frLU970LU970&sxsrf=AOaemvJuzsU87VRCDgASkXkrMAMlEv14Iw:1635947474976&source=lnms&tbm=isch&sa=X&ved=2ahUKEwid9Pagq_zzAhXVh_0HHdvBAgAQ_AUoAXoECAEQAw&biw=1536&bih=722&dpr=1.25
+https://nvie.com/posts/a-successful-git-branching-model/
