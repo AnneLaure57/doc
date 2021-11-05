@@ -77,9 +77,16 @@ link to doc [![Generic badge](https://badges.aleen42.com/src/github.svg)](https:
 
 ## **6 - Archive dead repositories**
 
+Delete your old repositorys. On GitHub, every week, there is a review repository in order to indicate the outdate dependencies. 
+
 ## **7 - Lock package versions**
 
+You can add on your project, the configuration files. For example, if you work on a Web application with NodeJs or Angular, you can move your package.json when you define a release.
+
 ## **8 - Specify standard package versions**
+
+
+You can specify the name of the version, release etc.
 
 ## **9 - Levrage task list**
 
