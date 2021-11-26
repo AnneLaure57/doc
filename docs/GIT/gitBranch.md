@@ -5,3 +5,4 @@ https://stackoverflow.com/questions/25190459/git-best-practice-one-or-multiple-b
 
 https://www.red-gate.com/simple-talk/opinion/opinion-pieces/branching-and-merging-ten-pretty-good-practices/
 
+https://stackoverflow.com/questions/9224754/how-to-remove-origin-from-git-repository

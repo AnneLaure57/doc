@@ -1,0 +1,1 @@
+https://learning.postman.com/docs/writing-scripts/test-scripts/

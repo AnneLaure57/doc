@@ -1,0 +1,1 @@
+https://springdoc.org/index.html#springdoc-openapi-core-properties

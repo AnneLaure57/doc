@@ -10,11 +10,12 @@ git pull origin master
 git merge --no-ff test
 git push origin master
 ```
-
-
-
 ## Merge
-
+https://www.tutorialspoint.com/what-is-a-fast-forward-merge-in-git
+https://www.dynamic-mess.com/developpement/git-merge-fast-forward-rebase-culture-git/
+https://www.atlassian.com/fr/git/tutorials/merging-vs-rebasing
+https://stackoverflow.com/questions/28140434/is-there-a-difference-between-git-rebase-and-git-merge-ff-only/28142831
+https://www.viget.com/articles/how-to-fix-your-git-branches-after-a-rebase/
 ### Git Flow : Fast-forward and no fast-forward
 
 <p style="text-align:justify;">git will (by default) do what is known as a fast-forward merge; master's branch pointer is just updated to be the same commit as the tip of your merge. This usually results in a simpler commit history that is easier to work with, especially if work is also going on in remote repositories.</p>
