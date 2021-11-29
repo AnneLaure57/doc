@@ -5,6 +5,16 @@ https://guide-angular.wishtack.io/angular/routing/route-guards
 https://ultimatecourses.com/blog/intro-to-angular-http-interceptors
 https://medium.com/angular-in-depth/top-10-ways-to-use-interceptors-in-angular-db450f8a62d6
 
+## Documentation
+
+https://guide-angular.wishtack.io/ecmascript-6+
+https://www.digitalocean.com/community/tags/angularjs
+
+### Courses
+
+https://www.youtube.com/watch?v=8k4ctDmVn7w&ab_channel=CodeStepByStep
+https://www.youtube.com/watch?v=3dHNOWTI7H8 
+
 ## pagination
 
 ### paginate angular 8
