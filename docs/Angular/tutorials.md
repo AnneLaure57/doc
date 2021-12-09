@@ -6,8 +6,8 @@ https://medium.com/code-divoire/ng-bootstrap-modalservice-and-expressionchangeda
 
 ### Reactive forms
 
-['freecodecamp.org'](https://www.freecodecamp.org/news/how-to-validate-angular-reactive-forms/)
-['edupala.com'](https://edupala.com/angular-reactive-form-validation/)
+[freecodecamp.org](https://www.freecodecamp.org/news/how-to-validate-angular-reactive-forms/)
+[edupala.com](https://edupala.com/angular-reactive-form-validation/)
 https://www.positronx.io/angular-material-reactive-forms-validation-tutorial/
 https://www.digitalocean.com/community/tutorials/angular-reactive-forms-introduction
 https://remotestack.io/angular-reactive-forms-validation-tutorial-example/

@@ -14,6 +14,9 @@
 [![Generic badge](https://badges.aleen42.com/src/youtube.svg)](https://www.youtube.com/watch?v=8k4ctDmVn7w&ab_channel=CodeStepByStep)
 [![Generic badge](https://badges.aleen42.com/src/youtube.svg)](https://www.youtube.com/watch?v=3dHNOWTI7H8)
 
+https://harshit1kumar.medium.com/what-to-learn-in-angular-3de0982ed6a7
+https://mahipal-nehra.medium.com/angular-developer-roadmap-2021-8795de251ded
+
 ## pagination
 
 ### paginate angular 8
