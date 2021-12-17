@@ -16,3 +16,6 @@ https://malcoded.com/posts/angular-fundamentals-reactive-forms/
 # Projects
 https://blog.logrocket.com/build-a-youtube-video-search-app-with-angular-and-rxjs/
 https://www.youtube.com/watch?v=LiOzTQAz13Q&ab_channel=freeCodeCamp.org
+https://www.bezkoder.com/angular-node-express-postgresql/
+https://muhammadehteshambhatti.medium.com/angular-nodejs-postgresql-microservices-on-azure-kubernetes-all-in-one-3bfa53ea3078
+https://medium.com/swlh/angular-node-and-postgresql-4a07d597be07
